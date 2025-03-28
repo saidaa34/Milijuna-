@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.prvi-red {
+    background-color: black;
+    color: white;
+    font-family: Amatic SC, Afacad, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width:700px) {
+    .prvi-red {
+        font-size: 15px;
+    }
+}
+
+.pocetna {
+    background-color: #FFB949;
+    color: rgb(47, 27, 82);
+    height: 100vh;
+}
+
+.drugi-red {
+    font-family: Afacad, Amatic SC, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.pitanja-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 520px;
+    color: white;
+}
+
+.osvojeno {
+    margin-left: 150px;
+}
+
+@media (max-width:1350px) {
+    .osvojeno {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    .osvojeno {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:620px) {
+    .osvojeno {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:530px) {
+    .osvojeno {
+        font-size: 8px;
+    }
+}
+
+.pitanje1 {
+    border-style: solid;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+}
+
+.prvi-odg,
+.drugi-odg,
+.treci-odg,
+.cetvrti-odg {
+    border-style: solid;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+}
+
+@media (max-width:600px) {
+    .pitanje1 {
+        margin: 50px;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:750px) {
+    .prvi-odg,
+    .drugi-odg,
+    .treci-odg,
+    .cetvrti-odg {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:600px) {
+    .prvi-odg,
+    .drugi-odg,
+    .treci-odg,
+    .cetvrti-odg {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:450px) {
+    .prvi-odg,
+    .drugi-odg,
+    .treci-odg,
+    .cetvrti-odg {
+        font-size: 8px;
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+.prvi-odg,
+.treci-odg {
+    margin-left: 100px;
+}
+
+.drugi-odg,
+.cetvrti-odg {
+    margin-right: 100px;
+}
+
+.tajmer1 {
+    border-style: solid;
+    border-radius: 150px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 35px;
+    backdrop-filter: blur(100px); 
+    background-color: black;
+}
+
+@media (max-width:750px) {
+    .tajmer1 {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .tajmer1{
+        font-size: 10px;
+    }
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+
+

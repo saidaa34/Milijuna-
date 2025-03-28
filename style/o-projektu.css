@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.glavni {
+    background-color: #FFB949;
+    color: rgb(47, 27, 82);
+}
+
+.prvi-red {
+    background-color: rgb(47, 27, 82);
+    color: white;
+    font-family: Amatic SC, Afacad, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+}
+
+.o-pr {
+    margin-top: 80px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: Afacad, Amatic SC, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    display: inline-block;
+}
+
+.dio-o-meni {
+    padding: 20px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.dio-o-meni .dio-o-meni-slika .moja-slika1 {
+    width: 27vw;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(47, 27, 82);
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.dio-o-meni .dio-o-meni-tekst .dio-o-meni-tekst1 {
+    flex: 1;
+    border-style: solid;
+    border-color: rgb(47, 27, 82);
+    border-radius: 10px; 
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: Afacad, Amatic SC, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1360px) {
+    .dio-o-meni {
+        flex-direction: column;
+    }
+}
+
+

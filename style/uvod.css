@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.prvi-red {
+    background-color: rgb(47, 27, 82);
+    color: white;
+    font-family: Amatic SC, Afacad, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+}
+
+.pocetna {
+    background-color: #FFB949;
+    color: rgb(47, 27, 82);
+    height: 100vh;
+}
+
+.drugi-red {
+    font-family: Afacad, Amatic SC, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.drugi-red .dobro-dosli {
+    margin-top: 100px;
+}
